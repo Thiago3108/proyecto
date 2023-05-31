@@ -22,6 +22,7 @@ ventana_principal.config(bg="khaki")
 #fonod de la pagina 
 
 fond = PhotoImage(file="fondo_v.png")
+fond_2=PhotoImage(file="fondo_v2.png")
 
 
 fondo_ventana_prin = Label(ventana_principal, image= fond)
@@ -80,7 +81,8 @@ def abrir_1_1():
     t_resultados.delete("1.0", "end")
     texto = "HERIDAS\nUna herida es la pérdida de continuidad de la piel o de las mucosas a consecuencia de un traumatismo, provocanto la comunicación del interior con el exterior del cuerpo.\nActuación:\n1) Lavarse las manos.\n2) Colocarse unos guantes.\n3) Limpiar la herida con agua y jabón.\n4) Secar la herida con gasa desde el centro hacia la periferia de. la misma\n5) Desinfectar la herida con un antiséptico.\n6) Cubrirla con gasa y esparadrapo.\n7) Retirar guantes y lavarse las manos.\n8) Advertir sobre la vacunación antitetánica.\n9) Solicitar valoración sanitaria ante heridas profundas y vacunación antitetánica.\nQué no debo hacer:\n· Emplear algodón, pomadas, polvos, etc., sobre la herida.\n· Manipulaciones innecesarias de la herida.\n· Limpiar la herida con manos, trapos, pañuelos, etc., sucios."
     posicion_insercion = "10.15"  # Posición donde se insertará la imagen
-    
+    posicion_insercion_2= "2.22"
+
     t_resultados.insert("end", texto)
     
     # Insertar la imagen en la posición especificada
@@ -88,6 +90,11 @@ def abrir_1_1():
     imagen.image = fond  # Mantener una referencia a la imagen para evitar que se elimine
     t_resultados.window_create(posicion_insercion, window=imagen)
     t_resultados.insert(posicion_insercion, "\n")
+    #imagen no.2
+    imagen_2 = Label(t_resultados, image=fond_2)
+    imagen.image = fond_2  # Mantener una referencia a la imagen para evitar que se elimine
+    t_resultados.window_create(posicion_insercion_2, window=imagen_2)
+    t_resultados.insert(posicion_insercion_2, "\n")
 
 boton1 = Button(frame_marco_indice, text="numero 1", command= abrir_1_1)
 boton1.place(x=0,y=0, width=230,height=40)
