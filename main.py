@@ -66,10 +66,30 @@ t_resultados.place(x=0,y=0, width=660, height=530)
 
 ####
 def abrir_1():
-    t_resultados.delete("1.0","end")
-    t_resultados.insert("end", "HERIDAS\nUna herida es la pérdida de continuidad de la piel o de las mucosas a consecuencia de un traumatismo, provocanto la comunicación del interior con el exterior del cuerpo.\nActuación:\n1) Lavarse las manos.\n2) Colocarse unos guantes.\n3) Limpiar la herida con agua y jabón.\n4) Secar la herida con gasa desde el centro hacia la periferia de. la misma\n5) Desinfectar la herida con un antiséptico.\n6) Cubrirla con gasa y esparadrapo.\n7) Retirar guantes y lavarse las manos.\n8) Advertir sobre la vacunación antitetánica.\n9) Solicitar valoración sanitaria ante heridas profundas y vacunación antitetánica.\nQué no debo hacer:\n·	Emplear algodón, pomadas, polvos, etc., sobre la herida.\n·	Manipulaciones innecesarias de la herida.\n·	Limpiar la herida con manos, trapos, pañuelos, etc., sucios.")
+    t_resultados.delete("1.0", "end")
+    texto = "HERIDAS\nUna herida es la pérdida de continuidad de la piel o de las mucosas a consecuencia de un traumatismo, provocanto la comunicación del interior con el exterior del cuerpo.\nActuación:\n1) Lavarse las manos.\n2) Colocarse unos guantes.\n3) Limpiar la herida con agua y jabón.\n4) Secar la herida con gasa desde el centro hacia la periferia de. la misma\n5) Desinfectar la herida con un antiséptico.\n6) Cubrirla con gasa y esparadrapo.\n7) Retirar guantes y lavarse las manos.\n8) Advertir sobre la vacunación antitetánica.\n9) Solicitar valoración sanitaria ante heridas profundas y vacunación antitetánica.\nQué no debo hacer:\n· Emplear algodón, pomadas, polvos, etc., sobre la herida.\n· Manipulaciones innecesarias de la herida.\n· Limpiar la herida con manos, trapos, pañuelos, etc., sucios."
+    t_resultados.insert("end", texto)
+    
+    # Insertar la imagen dentro del widget Text
+    imagen = Label(t_resultados, image=fond)
+    imagen.image = fond  # Mantener una referencia a la imagen para evitar que se elimine
+    t_resultados.window_create("end", window=imagen)
+    t_resultados.insert("end", "\n")
 
-boton1 = Button(frame_marco_indice, text="numero 1", command= abrir_1)
+def abrir_1_1():
+    t_resultados.delete("1.0", "end")
+    texto = "HERIDAS\nUna herida es la pérdida de continuidad de la piel o de las mucosas a consecuencia de un traumatismo, provocanto la comunicación del interior con el exterior del cuerpo.\nActuación:\n1) Lavarse las manos.\n2) Colocarse unos guantes.\n3) Limpiar la herida con agua y jabón.\n4) Secar la herida con gasa desde el centro hacia la periferia de. la misma\n5) Desinfectar la herida con un antiséptico.\n6) Cubrirla con gasa y esparadrapo.\n7) Retirar guantes y lavarse las manos.\n8) Advertir sobre la vacunación antitetánica.\n9) Solicitar valoración sanitaria ante heridas profundas y vacunación antitetánica.\nQué no debo hacer:\n· Emplear algodón, pomadas, polvos, etc., sobre la herida.\n· Manipulaciones innecesarias de la herida.\n· Limpiar la herida con manos, trapos, pañuelos, etc., sucios."
+    posicion_insercion = "10.15"  # Posición donde se insertará la imagen
+    
+    t_resultados.insert("end", texto)
+    
+    # Insertar la imagen en la posición especificada
+    imagen = Label(t_resultados, image=fond)
+    imagen.image = fond  # Mantener una referencia a la imagen para evitar que se elimine
+    t_resultados.window_create(posicion_insercion, window=imagen)
+    t_resultados.insert(posicion_insercion, "\n")
+
+boton1 = Button(frame_marco_indice, text="numero 1", command= abrir_1_1)
 boton1.place(x=0,y=0, width=230,height=40)
 boton1.config(bg= "khaki3")
 
