@@ -86,8 +86,7 @@ class ListboxFrame(ttk.Frame):
             elif index == 17:
                 self.abrir_18()
             elif index == 18:
-                self.abrir_19()
-            
+                self.abrir_19()      
 
     def abrir_1(self):
         t_resultados.config(state=NORMAL)
@@ -258,7 +257,7 @@ class ListboxFrame(ttk.Frame):
 ventana_principal = tk.Tk()
 
 # titulo de la ventana
-ventana_principal.title("Jhon Alexander Calderón Muñoz")
+ventana_principal.title("Primeros auxilios")
 
 # tamaño de la ventana
 ventana_principal.geometry("1000x700")
