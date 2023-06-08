@@ -3,7 +3,7 @@ from tkinter import messagebox
 import tkinter as tk
 import tkinter as ttk
 
-
+#scrollbar 
 class ListboxFrame(ttk.Frame):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -268,6 +268,51 @@ ventana_principal.resizable(False, False)
 # color de fondo de la ventana
 ventana_principal.config(bg="white")
 
+################################################################
+# ventana secundaria
+################################################################
+
+top = tk.Toplevel()
+ventana_principal.lift()
+top.title("Ventana de accion rapida")
+ventana_principal.withdraw()
+# ---
+# ------------------------------------------------------
+#Lo que va a ver en el top
+#------------------------------------------------------
+top.geometry("500x400")
+top.resizable(False, False)
+top.config(bg="aquamarine2")
+usuar = StringVar()
+code = StringVar()
+frame_top = Frame(top)
+frame_top.config(bg="aquamarine2", width=399, height=300)
+frame_top.place(x=0, y=0)
+
+def aceptar():
+    top.destroy()
+
+titulo_n = Label(top, text="Nota!: ¡Hola! Te encuentras en una situación en la que tu ayuda es vital.\n-Por favor, mantén la calma y recuerda que tus acciones marcarán la diferencia. \n-Aplica los conocimientos de primeros auxilios que posees de manera segura y eficiente.\n-Recuerda llamar a los servicios de emergencia para obtener asistencia médica profesional lo antes posible.\n-Tu apoyo y rápida respuesta son fundamentales para brindarle a la persona afectada la mejor atención posible.")
+titulo_n.config(bg = "lightskyblue1",fg="black", font=("italic", 10))
+titulo_n.place(x=10,y=10, width=400, height=100)
+
+bt_aceptar = Button(frame_top,text="Aceptar", command=aceptar)
+bt_aceptar.place(x=100, y=220, width=100, height=30)
+
+bt_paro_cardiaco = Button(frame_top,text="Aceptar", command=aceptar)
+bt_paro_cardiaco.place(x=100, y=220, width=100, height=30)
+
+bt_Hemorragias = Button(frame_top,text="Aceptar", command=aceptar)
+bt_Hemorragias.place(x=100, y=220, width=100, height=30)
+
+bt_Asfixia = Button(frame_top,text="Aceptar", command=aceptar)
+bt_Asfixia.place(x=100, y=220, width=100, height=30)
+
+bt_quemaduras_graves = Button(frame_top,text="Aceptar", command=aceptar)
+bt_quemaduras_graves.place(x=100, y=220, width=100, height=30)
+
+bt_Lesiones_oseas = Button(frame_top,text="Aceptar", command=aceptar)
+bt_Lesiones_oseas.place(x=100, y=220, width=100, height=30)
 
 ################################################################
 #Imagenes a usar
@@ -295,7 +340,7 @@ frame_marco_indice = Label(frame_indice)
 frame_marco_indice.config(bg="white")
 frame_marco_indice.place(x= 8, y =8,width=230, height=270)
 
-listbox_frame = ListboxFrame(frame_marco_indice)  # Pasar la raíz como argumento
+listbox_frame = ListboxFrame(frame_marco_indice)
 listbox_frame.pack(fill=tk.BOTH, expand=True)
 
 frame_info = Label(fondo_ventana_prin)
@@ -310,4 +355,6 @@ t_resultados = Text(frame_marco_info)
 t_resultados.config(bg="azure", fg="black", font=("MuseJazz Text", 15), state=DISABLED)
 t_resultados.place(x=0,y=0, width=655, height=525)
 
+ventana_principal.wait_window(top)
+ventana_principal.deiconify()
 ventana_principal.mainloop()
