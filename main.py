@@ -292,9 +292,9 @@ frame_top.place(x=0, y=0)
 def aceptar():
     top.destroy()
 
-titulo_n = Label(top, text="Nota!: ¡Hola! Te encuentras en una situación en la que tu ayuda es vital.\n-Por favor, mantén la calma y recuerda que tus acciones marcarán la diferencia. \n-Aplica los conocimientos de primeros auxilios que posees de manera segura y eficiente.\n-Recuerda llamar a los servicios de emergencia para obtener asistencia médica profesional lo antes posible.\n-Tu apoyo y rápida respuesta son fundamentales para brindarle a la persona afectada la mejor atención posible.")
+titulo_n = Label(top, text="Nota: ¡Hola! Te encuentras en una situación en la que tu ayuda es vital.              \n-Por favor, mantén la calma y recuerda que tus acciones marcarán la diferencia.\n-Recuerda llamar a los servicios de emergencia para obtener asistencia médica \n profesional lo antes posible.                                                                          ", anchor ="n")
 titulo_n.config(bg = "lightskyblue1",fg="black", font=("italic", 10))
-titulo_n.place(x=10,y=10, width=400, height=100)
+titulo_n.place(x=10,y=10, width=470, height=80)
 
 bt_aceptar = Button(frame_top,text="Aceptar", command=aceptar)
 bt_aceptar.place(x=100, y=220, width=100, height=30)
