@@ -35,7 +35,7 @@ class ListboxFrame(ttk.Frame):
         self.listbox.insert(tk.END, "-CUERPOS EXTRAÑOS")
         self.listbox.insert(tk.END, "-PICADURAS O MORDEDURAS")
         self.listbox.insert(tk.END, "-QUEMADURAS")
-        self.listbox.insert(tk.END, "-cONGELACIONES")
+        self.listbox.insert(tk.END, "-CONGELACIONES")
         self.listbox.insert(tk.END, "-INSOLACIONES")
         self.listbox.insert(tk.END, "-LIPOTIMIA")
         self.listbox.insert(tk.END, "-CONVULSIONES")
@@ -265,6 +265,59 @@ class ListboxFrame(ttk.Frame):
         t_resultados.config(state=DISABLED)
 
 
+def abrir_3():
+        t_resultados.config(state=NORMAL)
+        t_resultados.tag_configure("title", font=("Arial", 16, "bold"),     foreground="blue")
+        t_resultados.delete("1.0","end")
+        t_resultados.insert("end", "SOPORTE VITAL BASICO Y RCP BASICO\n", "title")
+        t_resultados.insert("end","En ocasiones, por diversas causas, la respiración y la circulación de una persona se interrumpen de forma brusca, inesperada y potencialmente reversible. Esa interrupción se conoce con el nombre de parada cardiorrespiratoria (PCR). \n\nSi esta situación se prolonga durante algunos minutos, la persona que la sufre muere, porque sus células dejan de recibir oxígeno y alimento. El cerebro no resiste esta situación más de 4 o 5 minuto, por este motivo es importante actuar de forma inmediata.\n\nLas maniobras de RCP básica tratan de sustituir la falta de respiración, ejecutando la ventilación artificial mediante la técnica conocida como ""ventilación boca a boca"", y la falta de latido cardíaco, ejecutando compresiones torácicas, es decir mediante el ""masaje cardíaco"".\nLa RCP básica la puede ejecutar cualquier persona entrenada sin necesidad de dispositivos especiales.\n\nEl SVB es el conjunto de actuaciones que puede ejecutar cualquier persona sin requerimientos especiales y que pretende: prevenir situaciones que puedan desencadenar una PCR o cualquier otra emergencia, conocer el sistema de emergencias y cómo activarlo de forma adecuada, y ejecutar de las propias técnicas de RCP.\n\nAnte una posible emergencia se debe seguir una secuencia de actuación que se conoce como algoritmo de soporte vital básico.")
+        t_resultados.config(state=DISABLED) 
+        top.destroy()
+
+def abrir_8():
+        t_resultados.config(state=NORMAL)
+        t_resultados.tag_configure("title", font=("Arial", 16, "bold"),     foreground="blue")
+        t_resultados.delete("1.0","end")
+        t_resultados.insert("end", "HEMORRAGIAS\n", "title")
+        t_resultados.insert("end","\nPodemos definir hemorragia como la salida de sangre de los vasos \nsanguíneos como consecuencia de la rotura de los mismos.\n\nActuación:\n\n·Lavarse las manos.\n·Colocarse los guantes.\n·Detener la hemorragia: Si es abundante pedir ayuda al 112:\n\n1ª Opción: COMPRESIÓN DIRECTA DEL PUNTO SANGRANTE.\n\n·Comprimir directamente la zona que sangra, con gasas o pañuelos\n limpios.\n·Mantener la compresión entre 5 y 10 minutos, sin retirar nunca el \napósito.\n·Si sigue sangrando, añadir más gasas.\n·Mantener siempre el miembro elevado.\n·Sujetar las gasas con vendaje compresivo.\n\n2ª Opción: COMPRESIÓN DE LA ARTERIA SOBRE EL HUESO\n   SUBYACENTE.\n\n·Si a pesar de lo anterior, persiste la hemorragia, realizar compresión\n directa sobre la arteria correspondiente a la zona del sangrado y siempre por encima de la misma, con:\n   a) Si la hemorragia es en el brazo: Compresión con la yema de los\n dedos sobre la arteria humeral.\n   b) Si la hemorragia es en la pierna: Compresión con el talón de la mano sobre la arteria femoral.\n\nQué no hacer:\n\n·Quitar gasas empapadas.\n·Se deben evitar los torniquetes, pues al evitar completamente el paso de sangre se dañan también zonas sanas.\n\nHemorragia interna. Síntomas del shock:\n·Consciente ó no.\n·Palidez.\n·Sudoración fría.\n·Extremidades frías.\n·Labios azulados.\n·Pulso débil y acelerado.\n·Respiración superficial y acelerada.\n\nAvisar al 112 y tumbar con la cabeza más baja que las piernas (posición de trendelenburg: con las piernas más altas que el resto del cuerpo).\n\nHemorragia nasal o epistaxis:\n\n·Comprimir ligeramente la aleta nasal del lado sangrante hacia el \ntabique nasal durante 10 minutos, si no cesa continuar otros 10 minutos.\n·Si continúa, coloque una gasa o algodón empapado en agua oxigenada en la fosa nasal que sangra introduciéndola poco a poco.\n·Aplique frío local en el lado sangrante.\n·Si la hemorragia dura mas de 30 minutos acudir al centro médico más cercano.\n\n")
+        t_resultados.config(state=DISABLED)
+        top.destroy()
+
+def abrir_6():
+        t_resultados.config(state=NORMAL)
+        t_resultados.tag_configure("title", font=("Arial", 16, "bold"), foreground="blue")
+        t_resultados.delete("1.0","end")
+        t_resultados.insert("end", "PROTOCOLO DE ACTUACION ANTE UNA OBSTRUCCION DE LA VIA AEREA\n", "title")
+        t_resultados.insert("end","La obstrucción de las vías respiratorias superiores es una situación de urgencia que puede ser vital si no se practican de forma inmediata las maniobras necesarias para dejar libres dichas vías.\n\nLa vía respiratoria superior comprende el tramo que va desde la cavidad bucal y las fosas nasales, pasando por la faringe laringe y tráquea.\n\nLas causas más frecuentes de obstrucción de la vía aérea se pueden resumir en dos grandes grupos:\n\n·En personas conscientes:\n\n\t-La aspiración de alimentos (atragantamiento) por \n\tdescoordinación entre la deglución y la respiración en un \n\tmomento determinado.\n\t-El paso hacia las vías respiratorias de objetos o cuerpos \n\textraños del interior de la boca como prótesis dentales, \n\tcoágulos de sangre, vómito.\n\n·En personas inconscientes:\n\n\t-La causa más frecuente de obstrucción, es la caída de la \n\tlengua hacia atrás, ocluyendo la faringe.\n\t-La obstrucción de la vía aérea puede ser completa \n\t o incompleta.\n\nHemos de comprobar la dificultad al paso del aire que presenta la persona accidentada, y una vez determinada la situación por la ausencia de movimientos respiratorios o excesivos esfuerzos para respirar procederemos a aplicar las siguientes maniobras:\n\n·En personas conscientes:\n\n\t·Si la obstrucción no es completa le animaremos a toser de \n\tforma enérgica para que expulse el cuerpo extraño.\n\n\t·Si la víctima ya no puede toser más, se le deben dar 5 golpes \n\ten la espalda, entre los omóplatos (las ""paletillas""), de forma \n\tvigorosa, seca y seguida, comprobando con cada uno de ellos \n\tsi se resuelve o no el atragantamiento. Para ello, el reanimador \n\ttiene que colocar a la víctima, estando en pie, con el tronco \n\ttligeramente inclinado hacia delante, sujetando el pecho con \n\tuna mano, y con el talón de la otra se aplican los 5 golpes \n\tinterescapulares.\n\n\t·Si a pesar de los 5 golpes en la espalda la víctima continua \n\tatragantada, es preciso aplicar compresiones abdominales, \n\thaciendo lo que se denomina maniobra de Heimlich, que \n\tconsiste en colocarnos por detrás del paciente, abrazarle de \n\tatrás a delante y cruzaremos las manos en la ""boca del \n\testómago"", dejando flexionar ligeramente al paciente. \n\n\tDe forma vigorosa aplicaremos 5 compresiones, de delante \n\tatrás y de abajo arriba. Si la víctima es muy obesa o está \n\tembarazada, las compresiones se efectuarán a nivel del pecho.\n\n\tEn caso de que las compresiones tampoco resuelvan el \n\tatragantamiento, debemos alternar golpes en la espalda y \n\tcompresiones abdominales, hasta que el problema se \n\tresuelva o la víctima pierda el conocimiento y muestre signos \n\tde que se derrumba y cae al suelo.\n\n·En personas inconscientes:\n\n\t·Si el atragantamiento es prolongado y provoca la pérdida de \n\tconocimiento, el reanimador tiene que: tender a la víctima en \n\tel suelo con cuidado, activar si no se ha hecho hasta ahora el \n\tsistema de emergencias, realizar la apertura de la vía aérea \n\t(maniobra frente-mentón) y observar dentro de la boca si el \n\tobjeto causante del atragantamiento es visible y accesible. \n\tSi es así realizar un barrido digital, es decir, con los dedos se \n\tprocede a retirar el objeto causante del atragantamiento.\n\n\t·Comenzar con la RCP, masaje y ventilaciones, a una relación \n\tde 30:2, preferentemente con la cabeza ladeada mientras se \n\thacen las compresiones, por si el objeto subiera a la boca.\n\n")
+        t_resultados.config(state=DISABLED)
+        top.destroy()
+
+def abrir_12():
+        t_resultados.config(state=NORMAL)
+        t_resultados.tag_configure("title", font=("Arial", 16, "bold"),     foreground="blue")
+        t_resultados.delete("1.0","end")
+        t_resultados.insert("end", " QUEMADURAS\n", "title")
+        t_resultados.insert("end", "\n • QUEMADURAS TÉRMICAS ( POR CALOR O LLAMA)\n\n - Actuación:\n  ·Lavarse las manos.\n  ·Colocarse los guantes.\n  ·Retirar relojes, pulseras, anillos, etc.\n  ·Exponer la zona quemada bajo el chorro de agua fría durante 10\n   minutos (de reloj).\n  ·Cubrir la zona con gasas estériles, a ser posible empapadas con suero\n   fisiológico o agua.\n  ·Elevar la zona afectada.\n  ·En grandes quemados, cubrirlos con mantas.\n  ·Acudir a un centro sanitario.\n\n - Qué no hacer:\n\n ·Aplicar pomadas. Aplicar remedios caseros.\n ·Utilizar hielo o agua helada.\n ·Romper ampollas.\n ·Utilizar antisépticos con colorantes.\n ·Correr en caso de que el cuerpo esté en llamas.\n ·Arrancar la ropa pegada al cuerpo por la quemadura.\n\n• QUEMADURAS QUÍMICAS (POR PRODUCTOS QUÍMICOS)\n\n ·Quitar la ropa de la zona afectada.\n ·Lavar abundantemente con agua (ducha de cuerpo entero, ducha\n  lavaojos, grifo de lavabo, etc. según cada caso), al menos durante 20 ó    30 minutos.\n ·Acudir a un centro sanitario.\n\n • QUEMADURAS ELÉCTRICAS\n\n  1.Cortar la corriente eléctrica.\n\n  2.Aislarse al rescatar al herido:\n\n   ·Apartarlo de la corriente eléctrica con ayuda de una pértiga de material      aislante (por ejemplo el palo de madera de una escoba).\n   ·Subirse sobre algo aislante (silla de madera, caja de plástico de\n    refrescos, etc.) para rescatar al accidentado.\n\n  3.visar a los servicios sanitarios.\n\n  4.Valorar a la persona accidentada y socorrerla:\n\n   ·Reanimación cardio-pulmonar si fuera necesario, en lugar seguro.\n   ·Al valorar al herido, tener en cuenta que puede sufrir otras posibles\n     lesiones y actuar en consecuencia.")
+        t_resultados.config(state=DISABLED)
+        top.destroy()
+
+def abrir_19():
+        t_resultados.config(state=NORMAL)
+        t_resultados.tag_configure("title", font=("Arial", 16, "bold"), foreground="blue")
+        t_resultados.delete("1.0","end")
+        t_resultados.insert("end", "FRACTURAS DE CONSIDERACIÓN IMPORTANTE\n", "title")
+        t_resultados.insert("end", "\nA) FRACTURAS DE CRÁNEO\n·Se sospechará ante la observación de hemorragia nasal u ótica o salida\nde líquido transparente (líquido cefalorraquídeo).\n\nB) FRACTURAS DE COLUMNA VERTEBRAL\n·Se sospechará si la persona no puede mover alguna extremidad.\n\nActuaciones en ambas situaciones:\n·No tocar al accidentado, indicando a la persona que debe permanecer\ninmóvil. No permitir que flexione o gire el cuello. No flexionar nunca al\nherido.\n·Avisar a los servicios sanitarios, para ser trasladado en condiciones\nadecuadas. Mover siempre en bloque y en plano duro por más de una persona.\n·Permanecer a su lado, controlando consciencia, respiración y pulso.")
+        t_resultados.config(state=DISABLED)
+        top.destroy()
+
+def abrir_20():
+        t_resultados.config(state=NORMAL)
+        t_resultados.tag_configure("title", font=("Arial", 16, "bold"), foreground="blue")
+        t_resultados.delete("1.0","end")
+        t_resultados.insert("end", "ACTUACIÓN ANTE INTOXICACIONES\n", "title")
+        t_resultados.insert("end", "Ante la sospecha de intoxicación es de vital importancia conocer el producto causante. A la persona afectada y a los compañeros, preguntarles:\n\n·¿Qué producto se ha manejado y en que cantidad?\n·¿Cuándo y durante cuanto tiempo se ha manejado?\n·¿Qué EPIs y ropa de trabajo se han empleado?\n·¿Qué tipo de síntomas se han observado?\n·¿Había tomado alcohol o alguna medicina?\n\nINGESTIÓN\n·Conocer el producto causante.\n·Llamar al Instituto Nacional de Toxicología: 91 562 04 20.\n·Avisar al 112 y trasladarle a un hospital.\n·No provocar el vómito en caso de ingestión de sustancias cáusticas., o en caso de que el herido esté inconsciente.\n·En casos excepcionales y si el paciente está consciente: administrar agua albuminosa (seis claras de huevo disuelto en un litro de agua). Dar a cucharadas, como máximo 1/2 litro.\n\nSALPICADURAS\n·Retirar toda la ropa y joyas.\n·Lavado exhaustivo con agua.\n\nSALPICADURA EN OJO\n·Lavado con agua, al menos 20 minutos, del ojo afectado.\n\nINTOXICACIÓN POR INHALACIÓN\n\n1.Protegerse/Avisar:\n·Evitar actuar solo.\n·Usar mascarillas adecuadas.\n·Si es necesario utilizar equipos autónomos.\n·Utilizar un trapo húmedo, sujetarse con una cuerda…\n·Valorar la causa de intoxicación: gases pesados y no pesados, plaguicidas, etc.\n·Avisar al Instituto Nacional de Toxicología y al 112.\n\n2.Socorrer:\n·Retirar al accidentado del ambiente tóxico.\n·Valorar nivel de conciencia y respiración, si es necesario realizar RCP.\n·Administrar oxígeno.\n·Trasladar a un centro hospitalario.")
+        t_resultados.config(state=DISABLED)
+        top.destroy()
 
 
 # ventana principal
@@ -294,13 +347,13 @@ ventana_principal.withdraw()
 # ------------------------------------------------------
 #Lo que va a ver en el top
 #------------------------------------------------------
-top.geometry("500x400")
+top.geometry("500x350")
 top.resizable(False, False)
 top.config(bg="aquamarine2")
 usuar = StringVar()
 code = StringVar()
 frame_top = Frame(top)
-frame_top.config(bg="aquamarine2", width=399, height=300)
+frame_top.config(bg="aquamarine2", width=399, height=500)
 frame_top.place(x=0, y=0)
 
 def aceptar():
@@ -311,22 +364,25 @@ titulo_n.config(bg = "lightskyblue1",fg="black", font=("italic", 10))
 titulo_n.place(x=10,y=10, width=470, height=80)
 
 bt_aceptar = Button(frame_top,text="Aceptar", command=aceptar)
-bt_aceptar.place(x=100, y=220, width=100, height=30)
+bt_aceptar.place(x=200, y=140, width=100, height=30)
 
-bt_paro_cardiaco = Button(frame_top,text="Aceptar", command=aceptar)
-bt_paro_cardiaco.place(x=100, y=220, width=100, height=30)
+bt_paro_cardiaco = Button(frame_top,text="Paro Cardiaco", command=abrir_3)
+bt_paro_cardiaco.place(x=50, y=100, width=100, height=30)
 
-bt_Hemorragias = Button(frame_top,text="Aceptar", command=aceptar)
-bt_Hemorragias.place(x=100, y=220, width=100, height=30)
+bt_Hemorragias = Button(frame_top,text="Hemorragia", command=abrir_8)
+bt_Hemorragias.place(x=50, y=140, width=100, height=30)
 
-bt_Asfixia = Button(frame_top,text="Aceptar", command=aceptar)
-bt_Asfixia.place(x=100, y=220, width=100, height=30)
+bt_Asfixia = Button(frame_top,text="Asfixia", command=abrir_6)
+bt_Asfixia.place(x=50, y=180, width=100, height=30)
 
-bt_quemaduras_graves = Button(frame_top,text="Aceptar", command=aceptar)
-bt_quemaduras_graves.place(x=100, y=220, width=100, height=30)
+bt_quemaduras_graves = Button(frame_top,text="Quemaduras", command=abrir_12)
+bt_quemaduras_graves.place(x=50, y=220, width=100, height=30)
 
-bt_Lesiones_oseas = Button(frame_top,text="Aceptar", command=aceptar)
-bt_Lesiones_oseas.place(x=100, y=220, width=100, height=30)
+bt_Lesiones_oseas = Button(frame_top,text="Fracturas", command=abrir_19)
+bt_Lesiones_oseas.place(x=50, y=260, width=100, height=30)
+
+bt_alergias = Button(frame_top,text="Alergias", command=abrir_20)
+bt_alergias.place(x=50, y=300, width=100, height=30)
 
 ################################################################
 #Imagenes a usar
