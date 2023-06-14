@@ -122,6 +122,44 @@ class ListboxFrame(ttk.Frame):
         t_resultados.insert("end", "PROTOCOLO DE ACTUACION ANTE UNA PARADA \nCARDIORESPIRATORIA\n", "title")
         t_resultados.insert("end","\nEn primer lugar se deben evitar peligros tanto para el herido como para el reanimador (Proteger). A continuación valoraremos su estado de \nconsciencia.\n\n1. VALORAR SU ESTADO DE CONCIENCIA\n\nArrodillado a la altura de los hombros de la persona accidentada, preguntarle qué le ocurre y sacudirle ligeramente. Si la persona está consciente, seguir pasos de la evaluación primaria y secundaria. Si la persona no responde, es decir, está inconsciente, se debe pedir ayuda de forma inmediata. Debe gritar pidiendo ayuda. Haga que alguien telefoneé al 112 e indique su situación y lo que está ocurriendo.\n\n2. ABRIR LA VÍA AÉREA Y VALORAR RESPIRACIÓN\n\nAnte una persona inconsciente de la que sospechemos haya podido sufrir una parada cardiorrespiratoria, lo ideal es colocarla en el suelo (plano duro y horizontal), tumbada boca arriba (decúbito supino) con los brazos estirados a lo largo del cuerpo. Si la víctima es una mujer embarazada, se le colocará en la parte derecha de su espalda algún objeto (toalla, cojín, etc.), de manera que quede algo inclinada hacia la izquierda, con el objetivo de desplazar su útero para que no dificulte el retorno de la sangre por las venas que llegan al corazón cuando se está realizando la RCP.\n\nAflojar todas las ropas que puedan oprimirle y desvestir el tórax.\n\nTras gritar pidiendo ayuda, y haber colocado con cuidado a la víctima en posición de RCP, se debe abrir la vía aérea.\n\nEs muy importante que el camino que debe seguir el aire desde el exterior hasta los pulmones esté despejado. Cuando una persona pierde el conocimiento, lo más probable es que su lengua ""caiga"" hacia atrás y obstruya el paso hasta los pulmones.\n\nEs necesario, por tanto, realizar una maniobra de extensión del cuello inclinando hacia atrás, lo más posible, la cabeza del paciente. De esta forma, la lengua se eleva y deja libre el paso del aire. La maniobra, conocida como maniobra frente-mentón, se realiza colocando una mano en la frente de la víctima y dos dedos de la otra mano en su barbilla, y procediendo entonces a practicar una extensión máxima del cuello tirando con cuidado de la cabeza hacia atrás.\n\nAdemás de la lengua, otros obstáculos pueden impedir el paso de aire. Debemos mirar dentro de la boca y extraer restos de comida, dentaduras postizas, etc., y si son visibles, extraer con dedos en ""gancho"". Debido a que la parada cardiorrespiratoria por atragantamiento es rara, no es necesario mirar la boca de forma rutinaria cuando se hace una RCP. Se mirará si tras iniciar la ventilación, ésta no es efectiva.\n\nUna vez abierta la vía aérea, debemos comprobar si el paciente respira o no. En ocasiones, es obvio (el paciente habla o se aprecian movimientos respiratorios). En cualquier caso, lo correcto es acercar nuestra oreja y nuestra mejilla a la boca y nariz del accidentado para ""SENTIR Y ESCUCHAR"" su respiración. A la vez, nuestra mirada debe dirigirse al tórax del paciente para VER si existen movimientos respiratorios. No deben emplearse más de 10 segundos.\n\nSi la víctima respira (a veces, la simple maniobra de apertura de vías es suficiente para recuperar la respiración espontánea, por ejemplo tras una sofocación), continuar la evaluación primaria y secundaria y, si sus lesiones no lo impiden, colocarla en posición lateral de seguridad hasta la llegada del personal especializado, enviar o pedir ayuda de nuevo, y revalorar periódicamente comprobando que la víctima continúa respirando con \nnormalidad.\n\n3. Si el paciente no respira: \n\nCONSEGUIR AYUDA, el reanimador debe llamar al 112 si está solo o enviar a alguien. Se debe indicar que se va a iniciar la maniobra de RCP.\n\nCIRCULACIÓN: Según las normas ILCOR 2005, el socorrista lego (ciudadano no sanitario) no deberá buscar indicios de circulación, simplemente comenzar la maniobra de masaje cardíaco junto a la de respiración artificial.\n\n4. INICIAR RCP\nEn el momento de detectar una ausencia respiratoria, deben iniciarse maniobras de resucitación.\nLo primero que debe hacer el reanimador es dar 30 compresiones torácicas, mediante lo que se denomina como masaje cardíaco:\n\n\n5. Recordar que la víctima debe estar sobre un plano duro.\n\n6. Colocarse de rodillas a un lado de la víctima, a la altura de sus hombros.\n\n7. Se sitúa el talón de la mano en el centro del pecho (donde se \nencuentra el punto donde se cruzarían dos líneas imaginarias que fueran, una de ellas de mamila a mamila y, otra, de nariz a ombligo), y el talón de la otra mano sobre la primera. Entrelazar los dedos y asegurarse de no aplicar presión sobre las costillas, parte superior del abdomen o parte final del esternón.\n\n8. Colocar verticalmente sobre el pecho de la víctima, y con los brazos rectos, comprimir el esternón de 4 a 5 centímetros. Tras cada compresión, se debe liberar la presión sobre el pecho sin que las manos dejen de contactar con él y repetir las compresiones a un ritmo de 100 por minuto. Para no perder la cuenta, es recomendable contar en voz alta de cinco en cinco compresiones o a partir de la nº 25.\n\nTras comenzar el masaje cardíaco, el reanimador debe combinar las 30 compresiones con 2 ventilaciones de rescate.\n\nPara ello, ha de abrir de nuevo la vía aérea (maniobra frente-mentón) y pinzar la nariz con los dedos índice y pulgar de la mano colocada sobre la frente del paciente, tomar una inspiración normal (Vol. Unos 500 cc.) e insuflar firmemente el aire en la boca de la víctima durante 1 seg., comprobando que el pecho se eleva. Esta técnica de respiración artificial se conoce como ventilación boca a boca. Retirar la boca de la víctima y, manteniendo la vía aérea abierta, comprobar que el pecho desciende conforme sale el aire insuflado.\n\nEn este caso, respiración boca a boca o sus variantes (boca a nariz sí la boca está lesionada o existía dentadura postiza; o boca a estoma en personas laringectomizados), insuflando aire directamente sobre el paciente.\nRepetir la maniobra para aplicar, así, 2 ventilaciones de rescate efectivas.\nHecho esto y sin retraso, el reanimador debe colocar sus manos en el centro del pecho y dar 30 compresiones torácicas. Debe proseguir, ininterrumpidamente, combinando compresiones torácicas y ventilaciones de rescate a un ritmo de 30:2.\n\nSi la primera ventilación de rescate no consigue elevar el pecho, antes del siguiente intento se debe revisar la boca de la víctima y sacar de ella cualquier cuerpo extraño, así como confirmar que la maniobra se está ejecutando correctamente.\n\nCuando la víctima es atendida por más de un reanimador, el masaje y la ventilación deben ser realizados por uno de ellos exclusivamente, que será sustituido por el otro, para evitar cansancio, aproximadamente cada 2 minutos. Este cambio se debe realizar sin interrumpir las maniobras (el primer reanimador está realizando su último ciclo de 2 ventilaciones, el segundo reanimador se coloca al lado de la víctima para aplicar las compresiones en cuanto se haya ejecutado la segunda insuflación de aire).\n\nLa RCP debe realizarse de forma continua hasta que: llegue la ayuda cualificada y se haga cargo de la situación, la víctima comience a respirar con normalidad, o el reanimador llegue a estar agotado.\n")
         t_resultados.config(state=DISABLED)
+        
+        posicion_insercion = "18.1"  # Posición donde se insertará la imagen
+        posicion_insercion_2= "22.0"
+        posicion_insercion_3= "26.0"
+        posicion_insercion_4= "40.0"
+        posicion_insercion_5= "47.0"
+        posicion_insercion_6= "49.0"
+        # Insertar la imagen en la posición especificada
+        imagen = Label(t_resultados, image=img1)
+        imagen.image = fond 
+        t_resultados.window_create(posicion_insercion, window=imagen)
+        t_resultados.insert(posicion_insercion, "\n\n")
+        #imagen no.2
+        imagen_2 = Label(t_resultados, image=img2)
+        imagen.image = fond_2 
+        t_resultados.window_create(posicion_insercion_2, window=imagen_2)
+        t_resultados.insert(posicion_insercion_2, "\n\n")
+
+        imagen_3 = Label(t_resultados, image=img3)
+        imagen.image = fond_2
+        t_resultados.window_create(posicion_insercion_3, window=imagen_3)
+        t_resultados.insert(posicion_insercion_3, "\n\n")
+
+        imagen_4 = Label(t_resultados, image=img4)
+        imagen.image = fond_2
+        t_resultados.window_create(posicion_insercion_4, window=imagen_4)
+        t_resultados.insert(posicion_insercion_4, "\n\n")
+
+        imagen_5 = Label(t_resultados, image=img5)
+        imagen.image = fond_2
+        t_resultados.window_create(posicion_insercion_5, window=imagen_5)
+        t_resultados.insert(posicion_insercion_5, "\n\n")
+
+        imagen_6 = Label(t_resultados, image=img6)
+        imagen.image = fond_2
+        t_resultados.window_create(posicion_insercion_6, window=imagen_6)
+        t_resultados.insert(posicion_insercion_5, "\n\n")
+
 
     def abrir_5(self):
         t_resultados.config(state=NORMAL)
@@ -146,19 +184,6 @@ class ListboxFrame(ttk.Frame):
         t_resultados.insert("end", "HERIDAS\n", "title")
         t_resultados.insert("end","\nUna herida es la pérdida de continuidad de la piel o de las mucosas a consecuencia de un traumatismo, provocanto la comunicación del interior con el exterior del cuerpo.\n\nActuación:\n1.Lavarse las manos.\n2.Colocarse unos guantes.\n3 Limpiar la herida con agua y jabón.\n4.Secar la herida con gasa desde el centro hacia la periferia de la misma.\n5.Desinfectar la herida con un antiséptico.\n6.Cubrirla con gasa y esparadrapo.\n7.Retirar guantes y lavarse las manos.\n8.Advertir sobre la vacunación antitetánica.\n9.Solicitar valoración sanitaria ante heridas profundas y vacunación antitetánica.\n\nQué no debo hacer:\n·Emplear algodón, pomadas, polvos, etc., sobre la herida.\n·Manipulaciones innecesarias de la herida.\n·Limpiar la herida con manos, trapos, pañuelos, sucios.")
         t_resultados.config(state=DISABLED)
-
-        posicion_insercion = "10.15"  # Posición donde se insertará la imagen
-        posicion_insercion_2= "5.0"
-        # Insertar la imagen en la posición especificada
-        imagen = Label(t_resultados, image=fond)
-        imagen.image = fond  # Mantener una referencia a la imagen para evitar que se elimine
-        t_resultados.window_create(posicion_insercion, window=imagen)
-        t_resultados.insert(posicion_insercion, "\n")
-        #imagen no.2
-        imagen_2 = Label(t_resultados, image=fond_2)
-        imagen.image = fond_2  # Mantener una referencia a la imagen para evitar que se elimine
-        t_resultados.window_create(posicion_insercion_2, window=imagen_2)
-        t_resultados.insert(posicion_insercion_2, "\n")
 
     def abrir_8(self):
         t_resultados.config(state=NORMAL)
@@ -391,6 +416,12 @@ bt_alergias.place(x=50, y=300, width=100, height=30)
 fond = PhotoImage(file="fondo_v.png")
 fond_2=PhotoImage(file="fondo_v2.png")
 
+img1 = PhotoImage(file="img/img/imagen-1.png")
+img2 = PhotoImage(file="img/img/imagen-2.png")
+img3 = PhotoImage(file="img/img/image-3.png")
+img4 = PhotoImage(file="img/img/image-4.png")
+img5 = PhotoImage(file ="img/img/imagen-5.png")
+img6 = PhotoImage(file ="img/img/imagen-6.png")
 ################################################################
 # contenido
 ################################################################
