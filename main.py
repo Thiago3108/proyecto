@@ -344,6 +344,19 @@ def abrir_20():
         t_resultados.config(state=DISABLED)
         top.destroy()
 
+# top level de numeros 
+
+def abrir_numeros():
+        global toplevel_numeros
+        toplevel_numeros = Toplevel()
+        toplevel_numeros.title("Numeros de Emergencia")
+        toplevel_numeros.resizable(False, False)
+        toplevel_numeros.geometry("520x300")
+        toplevel_numeros.config(bg="light steel blue")
+
+        #fondo del top level de quimica
+        frame_fon = Label(toplevel_numeros, image= fondo_num )
+        frame_fon.place(x=5,y=6)
 
 # ventana principal
 ventana_principal = tk.Tk()
@@ -413,15 +426,14 @@ bt_alergias.place(x=50, y=300, width=100, height=30)
 #Imagenes a usar
 ################################################################
 
-fond = PhotoImage(file="fondo_v.png")
-fond_2=PhotoImage(file="fondo_v2.png")
-
-img1 = PhotoImage(file="img/img/imagen-1.png")
-img2 = PhotoImage(file="img/img/imagen-2.png")
-img3 = PhotoImage(file="img/img/image-3.png")
-img4 = PhotoImage(file="img/img/image-4.png")
-img5 = PhotoImage(file ="img/img/imagen-5.png")
-img6 = PhotoImage(file ="img/img/imagen-6.png")
+fond = PhotoImage(file="img/fondo_v.png")
+fond_2=PhotoImage(file="img/fondo_v2.png")
+img1 = PhotoImage(file="img/imagen-1.png")
+img2 = PhotoImage(file="img/imagen-2.png")
+img3 = PhotoImage(file="img/image-3.png")
+img4 = PhotoImage(file="img/image-4.png")
+img5 = PhotoImage(file="img/imagen-5.png")
+img6 = PhotoImage(file="img/imagen-6.png")
 ################################################################
 # contenido
 ################################################################
@@ -448,6 +460,13 @@ frame_info = Label(fondo_ventana_prin)
 frame_info.config(bg="ivory2")
 frame_info.place(x=300, y = 130, width= 680, height= 550 )
 
+num= PhotoImage(file="img/num_t (1).png")
+
+# boton de label de notas de CALCULO 1
+bt_notas = Button(frame_indice, image= num, command= abrir_numeros )
+bt_notas.place(x=20, y=340)
+bt_notas.config(bg = "light blue")
+
 frame_marco_info = Label(frame_info)
 frame_marco_info.config(bg="white")
 frame_marco_info.place(x=10,y=10, width=660, height=530)
@@ -455,6 +474,8 @@ frame_marco_info.place(x=10,y=10, width=660, height=530)
 t_resultados = Text(frame_marco_info)
 t_resultados.config(bg="azure", fg="black", font=("MuseJazz Text", 15), state=DISABLED)
 t_resultados.place(x=0,y=0, width=655, height=525)
+
+fondo_num = PhotoImage(file = "img/n_e (3) (1).png")
 
 ventana_principal.wait_window(top)
 ventana_principal.deiconify()
